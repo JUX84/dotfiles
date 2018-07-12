@@ -14,7 +14,7 @@
 font pango:Hack 9
 
 # Hide borders
-default_border none
+new_window none
 hide_edge_borders both
 
 # use these keys for focus, movement, and resize directions when reaching for
