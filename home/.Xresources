@@ -1,5 +1,5 @@
 ! Font
-*font: xft:Hack:size=9
+*font: xft:Hack:size=10
 
 ! Scrollbar
 URxvt*scrollBar: false
