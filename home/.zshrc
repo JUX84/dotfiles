@@ -1,5 +1,3 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # zsh
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="agnoster"
@@ -51,4 +49,5 @@ then
 fi
 
 # misc
-alias less="vim -u $HOME/.vimrc.more"
+alias lesss="vim -u $HOME/.vimrc.more"
+alias top="htop"

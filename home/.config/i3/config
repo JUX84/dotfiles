@@ -14,9 +14,9 @@
 font pango:Hack 9
 
 # Hide borders
-new_window pixel 1
-client.focused #000000 #000000 #000000 #000000 #808080
-client.unfocused #000000 #000000 #000000 #000000 #404040
+new_window none 
+#client.focused #000000 #000000 #000000 #000000 #808080
+#client.unfocused #000000 #000000 #000000 #000000 #404040
 hide_edge_borders both
 
 # use these keys for focus, movement, and resize directions when reaching for
@@ -165,3 +165,7 @@ bar {
         focused_workspace #404040 #202020 #DFDFDF
     }
 }
+
+bindsym XF86AudioLowerVolume exec amixer set Master 2%-
+bindsym XF86AudioRaiseVolume exec amixer set Master 2%+
+bindsym XF86AudioMute exec amixer set Master toggle 
